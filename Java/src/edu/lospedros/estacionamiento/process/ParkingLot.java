@@ -2,7 +2,7 @@ package edu.lospedros.estacionamiento.process;
 
 import edu.lospedros.estacionamiento.data.Ticket;
 import edu.lospedros.estacionamiento.data.Vehicle;
-import edu.lospedros.estacionamiento.payment.FareCalculator;
+
 import java.time.LocalDateTime;
 
 public class ParkingLot {
