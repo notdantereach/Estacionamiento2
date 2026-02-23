@@ -1,4 +1,4 @@
 package edu.lospedros.estacionamiento.payment;
 
-public class FareStrategy {
+public interface FareStrategy extends edu.lospedros.estacionamiento.payment.fare.FareStrategy {
 }
