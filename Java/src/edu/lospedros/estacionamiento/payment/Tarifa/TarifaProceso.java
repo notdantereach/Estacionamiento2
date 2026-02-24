@@ -1,4 +1,4 @@
-package edu.lospedros.estacionamiento.payment;
+package edu.lospedros.estacionamiento.payment.Tarifa;
 
 import edu.lospedros.estacionamiento.process.Ticket;
 

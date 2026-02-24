@@ -1,6 +1,6 @@
 package edu.lospedros.estacionamiento.data;
 
-import java.time.Duration;
+
 import java.time.LocalDateTime;
 
 public class Ticket {
@@ -19,10 +19,4 @@ public class Ticket {
     public Vehicle getVehicle() { return vehicle; }
     public LocalDateTime getEntryTime() { return entryTime; }
     public LocalDateTime getExitTime() { return exitTime; }
-
-    // Devuelve la duración de estacionamiento; si exitTime es null, usa el tiempo actual.
-    public Duration calculateParkingDuration() {
-        LocalDateTime end = (exitTime != null) ? exitTime : LocalDateTime.now();
-        return Duration.between(entryTime, end);
-    }
 }
